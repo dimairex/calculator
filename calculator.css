@@ -2,6 +2,7 @@
 	font-family: 'Roboto', sans-serif;
 	font-size: 36px;
 	font-weight: 700;
+	border-collapse: collapse;
 }
 
 td {
@@ -35,7 +36,10 @@ td {
 	color: black;
 	cursor: pointer;
 	transition: opacity ease .25s;
+}
 
+.Calculator__numb:hover {
+	opacity: .75;
 }
 
 .Calculator__enter {
@@ -43,8 +47,10 @@ td {
 	color: black;
 	border-radius: 0 0 12px 12px;
 	cursor: pointer;
-	transition: opacity ease .25s
+	transition: opacity ease .25s;
 }
+
 .Calculator__enter:hover {
 	opacity: .75;
 }
+
